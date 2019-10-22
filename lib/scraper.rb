@@ -11,7 +11,7 @@ class Scraper
     
     Students.each do |student|
     student.css("div.student-card a").each do |html|
-      
+     student_name  
   end
   
     def self.scrape_profile_page(profile_url)
